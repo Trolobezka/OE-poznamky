@@ -9,8 +9,8 @@
 
 **Typy vyzařování**:
 
-1. **Absolutně černé těleso** – ideální model s maximální emisivitou ( $\varepsilon = 1 $).
-2. **Reálná tělesa** – mají nižší emisivitu ( $\varepsilon < 1 $) a závisí na povrchu a materiálu tělesa.
+1. **Absolutně černé těleso** – ideální model s maximální emisivitou ($\varepsilon = 1 $).
+2. **Reálná tělesa** – mají nižší emisivitu ($\varepsilon < 1 $) a závisí na povrchu a materiálu tělesa.
 
 ## **2. Absolutně černé těleso**
 
@@ -91,28 +91,28 @@ Radiometrie se zabývá měřením **elektromagnetického záření** v celém s
 
 ### **Hlavní radiometrické veličiny**:
 
-1. **Zářivý tok** ( $\Phi $)
+1. **Zářivý tok** ($\Phi $)
 
    - Celkový výkon záření emitovaný zdrojem (integrální veličina).
    - Jednotka: **watt (W)**.
    - $\Phi = \int H*{\lambda} \, d\lambda $, kde $H*{\lambda} $je spektrální hustota zářivého toku.
 
-2. **Zářivost** ( $I_e $)
+2. **Zářivost** ($I_e $)
 
    - Množství zářivého toku na jednotku **prostorového úhlu** ve směru vyzařování:
      $$
      I_e = \frac{\mathrm{d}\Phi}{\mathrm{d}\Omega} \quad [\mathrm{W \cdot sr^{-1}}].
      $$
 
-3. **Zářivá hustota** ( $L_e $)
+3. **Zářivá hustota** ($L_e $)
 
    - Zářivý tok vyzařovaný z jednotkové plochy do jednotkového prostorového úhlu:
      $$
      L_e = \frac{\mathrm{d}^2\Phi}{\mathrm{d}A \cdot \mathrm{d}\Omega \cdot \cos\theta} \quad [\mathrm{W \cdot m^{-2} \cdot sr^{-1}}].
      $$
-   - Zohledňuje **úhel dopadu záření** ( $\theta $) na plochu $A $.
+   - Zohledňuje **úhel dopadu záření** ($\theta $) na plochu $A $.
 
-4. **Osvětlení** ( $E $)
+4. **Osvětlení** ($E $)
    - Zářivý tok dopadající na jednotku plochy:
      $$
      E = \frac{\mathrm{d}\Phi}{\mathrm{d}A} \quad [\mathrm{W \cdot m^{-2}}].
@@ -124,7 +124,7 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
 
 ### **Hlavní fotometrické veličiny**:
 
-1. **Světelný tok** ( $\Phi_v $)
+1. **Světelný tok** ($\Phi_v $)
 
    - Celkové množství světla vyzařované zdrojem. Vypočítává se pomocí **světelné účinnosti**:
      $$
@@ -133,7 +133,7 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
    - $K(\lambda) $: Světelná účinnost.
    - Jednotka: **lumen (lm)**.
 
-2. **Svítivost** ( $I $)
+2. **Svítivost** ($I $)
 
    - Světelný tok na jednotku prostorového úhlu:
      $$
@@ -141,7 +141,7 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
      $$
    - Jednotka: **kandela (cd)**.
 
-3. **Osvětlení** ( $E $)
+3. **Osvětlení** ($E $)
 
    - Světelný tok dopadající na jednotkovou plochu:
      $$
@@ -149,7 +149,7 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
      $$
    - Jednotka: **lux (lx)**.
 
-4. **Jas** ( $L $)
+4. **Jas** ($L $)
    - Svítivost vyzařovaná z jednotkové plochy v daném směru:
      $$
      L = \frac{\mathrm{d}I}{\mathrm{d}A \cdot \cos\theta} \quad [\mathrm{cd \cdot m^{-2}}].
@@ -157,7 +157,7 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
 
 ## **3. Šedé těleso**
 
-Šedé těleso je **reálné těleso**, které nevyzařuje maximální možný výkon (jako absolutně černé těleso). Má konstantní **emisivitu** ( $\varepsilon $) menší než 1 pro všechny vlnové délky.
+Šedé těleso je **reálné těleso**, které nevyzařuje maximální možný výkon (jako absolutně černé těleso). Má konstantní **emisivitu** ($\varepsilon $) menší než 1 pro všechny vlnové délky.
 
 - **Emisivita** je poměr skutečného záření tělesa k záření absolutně černého tělesa:
   $$
@@ -171,15 +171,15 @@ Fotometrie je podmnožinou radiometrie, která bere v úvahu **citlivost lidské
 
 **Reálné povrchy**:
 
-- Matný černý lak má vysokou emisivitu ( $\varepsilon \approx 0,98 $),
-- Leštěné kovy mají nízkou emisivitu ( $\varepsilon \approx 0,1-0,3 $).
+- Matný černý lak má vysokou emisivitu ($\varepsilon \approx 0,98 $),
+- Leštěné kovy mají nízkou emisivitu ($\varepsilon \approx 0,1-0,3 $).
 
 ## **4. Citlivost lidského oka**
 
 Citlivost lidského oka na záření není rovnoměrná v celém spektru:
 
 - **Maximální citlivost**: $\lambda = 555 \, \mathrm{nm} $(zelená oblast) za denního světla – **fotopické vidění**.
-- Při nízké úrovni osvětlení (noční vidění) je citlivost posunuta k **modré oblasti** ( $\lambda \approx 507 \, \mathrm{nm} $) – **skotopické vidění**.
+- Při nízké úrovni osvětlení (noční vidění) je citlivost posunuta k **modré oblasti** ($\lambda \approx 507 \, \mathrm{nm} $) – **skotopické vidění**.
 
 ### **Světelná účinnost**:
 
@@ -190,10 +190,10 @@ Citlivost lidského oka na záření není rovnoměrná v celém spektru:
 
 | **Typ veličiny**         | **Radiometrická jednotka** | **Fotometrická jednotka** |
 | ------------------------ | -------------------------- | ------------------------- |
-| Zářivý tok ( $\Phi $)    | W (watt)                   | lm (lumen)                |
-| Zářivost ( $I_e $)       | W·sr $^{-1} $              | cd (kandela)              |
-| Zářivá hustota ( $L_e $) | W·m $^{-2} $·sr $^{-1} $   | cd·m $^{-2} $             |
-| Osvětlení ( $E $)        | W·m $^{-2} $               | lx (lux)                  |
+| Zářivý tok ($\Phi $)    | W (watt)                   | lm (lumen)                |
+| Zářivost ($I_e $)       | W·sr $^{-1} $              | cd (kandela)              |
+| Zářivá hustota ($L_e $) | W·m $^{-2} $·sr $^{-1} $   | cd·m $^{-2} $             |
+| Osvětlení ($E $)        | W·m $^{-2} $               | lx (lux)                  |
 
 ## **6. Praktické aplikace**
 
@@ -257,9 +257,9 @@ Výbojky jsou založeny na emisi světla při **průchodu elektrického proudu p
 
 - Obsahují rtuť, která při elektrickém výboji vyzařuje **ultrafialové záření**.
 - Typy:
-  1. **Nízkotlaké** ( $< 100 \, \text{kPa} $) – používají se ve fluorescenčních lampách.
-  2. **Středotlaké** ( $100 \, \text{kPa} - 1 \, \text{MPa} $).
-  3. **Vysokotlaké** ( $> 1 \, \text{MPa} $) – vysoký výkon a jas.
+  1. **Nízkotlaké** ($< 100 \, \text{kPa} $) – používají se ve fluorescenčních lampách.
+  2. **Středotlaké** ($100 \, \text{kPa} - 1 \, \text{MPa} $).
+  3. **Vysokotlaké** ($> 1 \, \text{MPa} $) – vysoký výkon a jas.
 
 ### **2.2 Sodíkové výbojky (Na)**
 
@@ -283,7 +283,7 @@ Výbojky jsou založeny na emisi světla při **průchodu elektrického proudu p
 1. **Primární zdroj**: **Nízkotlaký rtuťový výboj** produkuje ultrafialové záření.
 2. **Sekundární zdroj**: **Luminofory** na vnitřní straně baňky přeměňují UV záření na viditelné světlo (Stokesův posun).
 
-- **Princip**: Elektrony v luminoforech absorbují UV záření (excitační energie $E_1 $) a emitují světlo při návratu do základního stavu ( $E_2 $).
+- **Princip**: Elektrony v luminoforech absorbují UV záření (excitační energie $E_1 $) a emitují světlo při návratu do základního stavu ($E_2 $).
 - **Výhody**:
   - Vysoká účinnost.
   - Stabilní světelný výstup při vysokých frekvencích (40–50 kHz).
@@ -318,7 +318,7 @@ Výbojky jsou založeny na emisi světla při **průchodu elektrického proudu p
     - Při aplikaci napětí v propustném směru se elektrony přesouvají z vodivostního pásu do valenčního pásu.
     - Při rekombinaci s dírami dochází k uvolnění **energie ve formě fotonu**.
 2.  **Barva světla** závisí na **šířce zakázaného pásu** polovodiče (band gap).
-    - Energie fotonu ( $E $) je dána vztahem:
+    - Energie fotonu ($E $) je dána vztahem:
       $$
       E = h \cdot f = \frac{h \cdot c}{\lambda}
       $$
@@ -420,15 +420,15 @@ LED diody mají specifickou závislost **světelného výkonu** a **dopředného
 
    - Aktivní prostředí tvořeno krystaly nebo sklem dopovaným ionty.
    - Příklady:
-     - **Rubínový laser**: Aktivní prostředí **Cr $^3+ $** v safírové matrici ( $\lambda = 0,6943 \, \mu m $).
-     - **Neodymový YAG laser**: Aktivní prostředí **Nd $^3+ $** v yttrium-aluminium-granátu ( $\lambda = 1,062 \, \mu m $).
+     - **Rubínový laser**: Aktivní prostředí **Cr $^3+ $** v safírové matrici ($\lambda = 0,6943 \, \mu m $).
+     - **Neodymový YAG laser**: Aktivní prostředí **Nd $^3+ $** v yttrium-aluminium-granátu ($\lambda = 1,062 \, \mu m $).
 
 2. **Plynové lasery**:
 
    - Aktivní prostředí tvořeno plyny.
    - Příklady:
-     - **CO $\_2 $laser**: Aktivní plyn CO $\_2 $, N $\_2 $a He ( $\lambda = 10,6 \, \mu m $).
-     - **He-Ne laser**: Helium-neon směs ( $\lambda = 0,6328 \, \mu m $).
+     - **CO $\_2 $laser**: Aktivní plyn CO $\_2 $, N $\_2 $a He ($\lambda = 10,6 \, \mu m $).
+     - **He-Ne laser**: Helium-neon směs ($\lambda = 0,6328 \, \mu m $).
 
 3. **Polovodičové lasery (Laserové diody)**:
 
