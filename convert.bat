@@ -1,0 +1,1 @@
+pandoc poznamky.md -V geometry:a5paper,margin=0.5cm -f markdown+tex_math_single_backslash -o poznamky.pdf
