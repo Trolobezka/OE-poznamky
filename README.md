@@ -16,7 +16,7 @@
 
 - **Definice**: Těleso, které **pohltí** všechno dopadající záření, bez ohledu na vlnovou délku.
   - Ideální model v termodynamice a optice.
-- **Spektrální pohltivost** $\alpha*\lambda $: Pro absolutně černé těleso $\alpha*\lambda = 1 $pro všechny vlnové délky.
+- **Spektrální pohltivost**$\alpha*\lambda $: Pro absolutně černé těleso $\alpha*\lambda = 1 $pro všechny vlnové délky.
 - **Realizace**: V praxi lze přiblížit „černou dutinou“ s malým otvorem (ztracené záření uvnitř se prakticky neodrazí ven).
 
 ## **3. Stefan-Boltzmannův zákon**
@@ -25,7 +25,7 @@
   $$
   H_{0e} = \sigma T^4
   $$
-  - ** $\sigma $**: Stefan-Boltzmannova konstanta, $5,670 \times 10^{-8} \, W \cdot m^{-2} \cdot K^{-4} $.
+  - **$\sigma $**: Stefan-Boltzmannova konstanta, $5,670 \times 10^{-8} \, W \cdot m^{-2} \cdot K^{-4} $.
   - **T**: Absolutní teplota tělesa (v Kelvinech).
 - **Význam**:
   - Popisuje, že celková energie vyzařovaná povrchem tělesa **roste s mocninou čtvrté teploty**.
@@ -40,7 +40,7 @@
   $$
   \lambda_{\text{max}} T = b
   $$
-  - ** $\lambda\_{\text{max}} $**: Vlnová délka, při které je intenzita vyzařování největší.
+  - **$\lambda\_{\text{max}} $**: Vlnová délka, při které je intenzita vyzařování největší.
   - **b**: Wienova konstanta, $2,898 \times 10^{-3} \, m \cdot K $.
 - **Význam**:
   - S rostoucí teplotou se **maximum vyzařování posouvá** do oblasti **krátkých vlnových délek** (např. viditelné světlo → ultrafialové záření).
@@ -52,18 +52,18 @@
   $$
   H_{0\lambda} = \frac{c_1}{\lambda^5} \frac{1}{e^{c_2 / \lambda T} - 1}
   $$
-  - ** $c_1 $**: První radiační konstanta.
-  - ** $c_2 $**: Druhá radiační konstanta.
-  - ** $\lambda $**: Vlnová délka záření.
-  - ** $T $**: Absolutní teplota tělesa.
+  - **$c_1 $**: První radiační konstanta.
+  - **$c_2 $**: Druhá radiační konstanta.
+  - **$\lambda $**: Vlnová délka záření.
+  - **$T $**: Absolutní teplota tělesa.
 - **Fyzikální význam**:
   - Zákon spojil **Rayleigh-Jeansův** a **Wienův zákon** a překonal problém **ultrafialové katastrofy**.
   - Předpokládá, že energie záření je **kvantována**:
     $$
     E = h \nu
     $$
-        - ** $h $**: Planckova konstanta, $6,626 \times 10^{-34} \, J \cdot s $.
-        - ** $\nu $**: Frekvence záření.
+        - **$h $**: Planckova konstanta, $6,626 \times 10^{-34} \, J \cdot s $.
+        - **$\nu $**: Frekvence záření.
 - **Důsledek**:
   - Planckův zákon umožnil rozvoj **kvantové fyziky**.
   - Popisuje celé spektrum záření absolutně černého tělesa.
@@ -184,7 +184,7 @@ Citlivost lidského oka na záření není rovnoměrná v celém spektru:
 ### **Světelná účinnost**:
 
 - **Fotopická účinnost**: Zrakový vjem je nejefektivnější při 555 nm. Maximální účinnost $K_v = 683 \, \mathrm{lm \cdot W^{-1}} $.
-- **Relativní světelná účinnost** $K(\lambda) $vyjadřuje schopnost oka vnímat světlo na různých vlnových délkách.
+- **Relativní světelná účinnost**$K(\lambda) $vyjadřuje schopnost oka vnímat světlo na různých vlnových délkách.
 
 ## **5. Shrnutí veličin a jejich jednotek**
 
@@ -676,7 +676,7 @@ Optická vlákna lze uspořádat do **svazků** pro přenos světla nebo obrazu.
   - $c $– rychlost světla,
   - $\lambda $– vlnová délka.
 
-- Aby došlo k uvolnění elektronu, musí být energie fotonu větší než **výstupní práce** $W_v $daného materiálu:
+- Aby došlo k uvolnění elektronu, musí být energie fotonu větší než **výstupní práce**$W_v $daného materiálu:
   $$
   E_f > W_v.
   $$
